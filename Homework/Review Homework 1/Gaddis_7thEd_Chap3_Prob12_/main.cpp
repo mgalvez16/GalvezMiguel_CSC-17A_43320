@@ -14,15 +14,16 @@ using namespace std;
 
 //Global Constants
 //Math, Science, Universal, Conversions, High Dimensioned Arrays
-const float SLS_TX=0.06f; //Product Sales Tax
-const float SLS_TXS=0.04f;//State Sales Tax
-const float SLS_TXC=0.02f;//County Sales Tax
+
 //Function Prototypes
 
 //Execution Begins Here
 int main(int argc, char** argv) {
     //Initialize the Random Number Seed
-    
+    //Declare Constants
+    const float SLS_TX=0.06f; //Product Sales Tax
+    const float SLS_TXS=0.04f;//State Sales Tax
+    const float SLS_TXC=0.02f;//County Sales Tax
     //Declare Variables
     char mnth[10];//Month of the Year
     short int yr;//Year
