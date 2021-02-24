@@ -23,16 +23,16 @@ int main(int argc, char** argv) {
     
     //Declare Constants
     const char MIN=0;   //Number of Units Sold Need to Exceed 0
-    const char CST=99;  //Cost of Package (USD)
-    const float TN_NNTN=0.20f;//Discount For Purchase of 10-19 Items
-    const float TT_FTNN=0.30f;//Discount For Purchase of 20-49 Items
-    const float FTY_NTYNN=0.40f;//Discount For Purchase of 50-99 Items
-    const float HNDRD=0.50f;//Discount For Purchase of 100 or more Items
+               CST=99;  //Cost of Package (USD)
+    const float TN_NNTN=0.20f,  //Discount For Purchase of 10-19 Items
+                TT_FTNN=0.30f,  //Discount For Purchase of 20-49 Items
+                FTY_NTYNN=0.40f,//Discount For Purchase of 50-99 Items
+                HNDRD=0.50f;//Discount For Purchase of 100 or more Items
     
     //Declare Variables
     int untsSld;   //Number of Units Sold
-    float bsCst;   //Base Cost of Purchase
-    float totCst;  //Total Cost of Purchase
+    float bsCst,   //Base Cost of Purchase
+          totCst;  //Total Cost of Purchase
     //Initialize Variables
     cout<<"How many units are sold?"<<endl;
     cin>>untsSld;

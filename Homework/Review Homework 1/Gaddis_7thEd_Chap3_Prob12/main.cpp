@@ -20,10 +20,12 @@ using namespace std;
 //Execution Begins Here
 int main(int argc, char** argv) {
     //Initialize the Random Number Seed
+    
     //Declare Constants
-    const float SLS_TX=0.06f; //Product Sales Tax
-    const float SLS_TXS=0.04f;//State Sales Tax
-    const float SLS_TXC=0.02f;//County Sales Tax
+    const float SLS_TX=0.06f, //Product Sales Tax
+                SLS_TXS=0.04f,//State Sales Tax
+                SLS_TXC=0.02f;//County Sales Tax
+    
     //Declare Variables
     char mnth[10];//Month of the Year
     short int yr;//Year
@@ -33,13 +35,12 @@ int main(int argc, char** argv) {
           sSlsTx, //State Sales Tax
           tSlsTx; //Total Sales Tax
             
-    
     //Initialize Variables/Prompt User
     cout<<"What is the month?"<<endl;
     cin>>mnth;
     cout<<"What is the year?"<<endl;
     cin>>yr;
-    cout<<"What is the total amount collected?"<<endl;
+    cout<<"What is the total amount collected? (USD)"<<endl;
     cin>>totCsh;
     
     //Map Inputs to Outputs -> Process

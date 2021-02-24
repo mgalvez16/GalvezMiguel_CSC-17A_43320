@@ -22,12 +22,12 @@ int main(int argc, char** argv) {
     //Initialize the Random Number Seed
     
     //Declare Constants
-    const float ASM_TX=0.60f;  //Assessment Tax (Decimal Form)
-    const float P_TX=0.64f/100;//Property Tax Formula
+    const float ASM_TX=0.60f,  //Assessment Tax (Decimal Form)
+                P_TX=0.64f/100;//Property Tax Formula
     //Declare Variables
     unsigned int valPrp;   //Value of Property (USD)
-    float asmVal;          //Assessment Value
-    float pTx;             //Property Tax
+    float asmVal,          //Assessment Value
+          pTx;             //Property Tax
     //Initialize Variables/Prompt User
     cout<<"What is the value of the property?"<<endl;
     cin>>valPrp;
