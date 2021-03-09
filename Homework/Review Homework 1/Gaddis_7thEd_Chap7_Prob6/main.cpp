@@ -58,8 +58,6 @@ int main(int argc, char** argv) {
         <<"Highest Number: "<<arNum[totNum-1]<<endl
         <<"Total Sum     : "<<tot<<endl
         <<"Average       : "<<avg<<endl;
-    for(int i=0;i<totNum;i++)
-        cout<<arNum[i]<<endl;
     
     //Exit the Program - Cleanup
     return 0;
